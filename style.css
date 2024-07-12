@@ -1,0 +1,228 @@
+* {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container-1 {
+    display: flex;
+    justify-content: space-around;
+}
+header {
+    background: #f4f4f4;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header .resume-button {
+    float: right;
+    margin-right: 20px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: #000000;
+    border:1px solid #666;
+    cursor: pointer;
+}
+
+.hero {
+    background: url('assets/Hero-bg.png') no-repeat center center/cover;
+    padding: 60px 0;
+    text-align: center;
+}
+
+.hero img {
+    width: 150px;
+    border-radius: 50%;
+}
+
+.hero h2 {
+    font-size: 24px;
+    margin: 20px 0;
+}
+
+.hero p {
+    font-size: 16px;
+    color: #000000;
+}
+
+.hero button {
+    border-radius: 5px;
+    padding: 10px 20px;
+    background: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    margin-top: 50px;
+}
+
+.why-web-development {
+    width: auto;
+    padding: 40px 0;
+    background: #f9f9f9;
+    text-align: center;
+}
+
+.why-web-development h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.why-web-development .reasons {
+    width: auto;
+    display: inline-block;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.why-web-development .reason {
+    width: 100%;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    display: flex;
+}
+
+.why-web-development .reason img {
+    width: auto;
+    margin-bottom: 20px;
+}
+
+.why-web-development .reason p {
+    width: auto;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.why-web-development .reason button {
+    /* padding: 10px 20px;
+    background: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer; */
+}
+
+.inspiration {
+    padding: 40px 0;
+    text-align: center;
+}
+
+.inspiration h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.inspiration p {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.inspiration img {
+    width: 100%;
+    max-width: 600px;
+}
+
+.targets {
+    display: block;
+    padding: 40px 0;
+    background: #f9f9f9;
+    text-align: center;
+}
+
+.targets h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.targets .target-list {
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px; /* Space between the cards */
+}
+
+.targets .target {
+    width: 30%;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.targets .target img {
+    width: 50px;
+    margin-bottom: 20px;
+}
+
+.targets .target p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.targets .target button {
+    padding: 10px 20px;
+    background: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.support {
+    background: url('assets/handshake.jpg') no-repeat center center/cover;
+    padding: 40px 0;
+    color: #fff;
+    text-align: center;
+}
+
+.support h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.support p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.support input {
+    padding: 10px;
+    width: 60%;
+    margin-bottom: 20px;
+    border: none;
+    
+}
+
+.support button {
+    padding: 10px 20px;
+    background: #fff;
+    color: #333;
+    border: none;
+    cursor: pointer;
+}
+
+footer {
+    padding: 20px 0;
+    background: #f4f4f4;
+    text-align: center;
+}
+
+footer p {
+    margin-bottom: 20px;
+}
+
+footer .social-icons a {
+    margin: 0 10px;
+    display: inline-block;
+}
+
+footer .social-icons img {
+    width: 30px;
+}
+
+.container-2{
+    display:flex;
+    justify-content: space-around;
+    margin: auto;
+}
